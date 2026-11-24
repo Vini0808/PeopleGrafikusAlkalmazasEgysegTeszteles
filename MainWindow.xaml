@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="EletkorBevitel" HorizontalAlignment="Left" Margin="35,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Új Életkor" HorizontalAlignment="Left" Margin="228,26,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="MinFel" HorizontalAlignment="Left" Margin="50,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="MaxFel" HorizontalAlignment="Left" Margin="280,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="ÁtlagSzámítás" HorizontalAlignment="Left" Margin="508,185,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="95,161,0,0" TextWrapping="Wrap" Text="Min" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="329,161,0,0" TextWrapping="Wrap" Text="Max" VerticalAlignment="Top"/>
+        <TextBlock x:Name="atlagSzamitasMutatas" HorizontalAlignment="Left" Margin="228,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
